@@ -1,1 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cornelius Mulyo | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <div class="brand">Cornelius Mulyo</div>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
+    <div class="hero">
+      <h1>Software Engineering • Data Engineering • ML</h1>
+      <p>
+        I enjoy building scalable backend systems, data pipelines, and machine learning applications
+        that solve real-world problems.
+      </p>
+      <div class="cta">
+        <a class="btn" href="https://github.com/Cornelius-Mulyo" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn secondary" href="#projects">View Projects</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="projects" class="section">
+      <h2>Featured Projects</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>YouthLink Opportunity Platform</h3>
+          <p>
+            A Flask-based platform to post and browse opportunities (internships, scholarships, workshops),
+            with file upload/download and search/filter features.
+          </p>
+          <p class="meta">Python • Flask • Bootstrap</p>
+          <div class="card-links">
+            <a href="https://github.com/Cornelius-Mulyo/youthlink-webplatform-v2" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>MRI Synthetic ML Pipeline</h3>
+          <p>
+            Synthetic spectroscopy pipeline using FFT-based preprocessing and frequency shifting,
+            with visualization to compare original vs shifted spectra.
+          </p>
+          <p class="meta">Python • NumPy • SciPy • Matplotlib</p>
+          <div class="card-links">
+            <a href="https://github.com/Cornelius-Mulyo/mri-synthetic-ml-pipeline" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>More Projects</h3>
+          <p>
+            Explore additional repos on GitHub including ML experiments, data analysis, and backend projects.
+          </p>
+          <p class="meta">GitHub</p>
+          <div class="card-links">
+            <a href="https://github.com/Cornelius-Mulyo?tab=repositories" target="_blank" rel="noreferrer">All Repos</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="tags">
+        <span>Python</span>
+        <span>Flask</span>
+        <span>APIs</span>
+        <span>SQL</span>
+        <span>Data Pipelines</span>
+        <span>Machine Learning</span>
+        <span>NumPy</span>
+        <span>Pandas</span>
+        <span>Git/GitHub</span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m focused on building production-ready software and data systems. My interests include backend engineering,
+        data engineering, machine learning, and quantitative research. I like projects that combine clean architecture,
+        real datasets (or realistic simulations), and measurable results.
+      </p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a><br/>
+        LinkedIn: <a href="YOUR_LINKEDIN_HERE" target="_blank" rel="noreferrer">YOUR_LINKEDIN_HERE</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Cornelius Mulyo</small>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
