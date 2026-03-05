@@ -79,9 +79,11 @@ a:hover { text-decoration: underline; }
 
 .card img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 12px;
+  display: block;
 }
+
 .card:hover {
   transform: translateY(-6px);
   transition: 0.3s ease;
