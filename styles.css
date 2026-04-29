@@ -124,3 +124,28 @@ a:hover { text-decoration: underline; }
   font-weight: 500;
   display: inline-block;
 }
+
+.python {
+  background-color: #3776AB;
+  color: white;
+}
+
+.kafka {
+  background-color: #231F20;
+  color: white;
+}
+
+.spark {
+  background-color: #E25A1C;
+  color: white;
+}
+
+.airflow {
+  background-color: #017CEE;
+  color: white;
+}
+
+.postgres {
+  background-color: #336791;
+  color: white;
+}
