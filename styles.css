@@ -115,3 +115,12 @@ a:hover { text-decoration: underline; }
 .hero-text {
   max-width: 650px;
 }
+
+.tech {
+  padding: 4px 8px;
+  margin: 2px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: inline-block;
+}
