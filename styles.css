@@ -149,3 +149,23 @@ a:hover { text-decoration: underline; }
   background-color: #336791;
   color: white;
 }
+
+.software .tech {
+  background: #1f8f4e;
+  color: white;
+}
+
+.data-eng .tech {
+  background: #E25A1C;
+  color: white;
+}
+
+.data-science .tech {
+  background: #6f42c1;
+  color: white;
+}
+
+.visual .tech {
+  background: #0ea5a5;
+  color: white;
+}
