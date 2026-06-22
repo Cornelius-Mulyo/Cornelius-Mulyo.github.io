@@ -19,7 +19,7 @@ a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .container {
-    width: min(1600px, 95%);
+    width: min(1400px, 95%);
     margin: 0 auto;
 }
 
@@ -49,9 +49,10 @@ a:hover { text-decoration: underline; }
 .section h2 { margin: 0 0 16px; font-size: 22px; }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 14px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 420px));
+    gap: 24px;
+    justify-content: center;
 }
 
 .card {
