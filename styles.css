@@ -18,7 +18,10 @@ body {
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-.container { width: min(1000px, 92%); margin: 0 auto; }
+.container {
+    width: min(1600px, 95%);
+    margin: 0 auto;
+}
 
 .nav {
   display: flex; align-items: center; justify-content: space-between;
