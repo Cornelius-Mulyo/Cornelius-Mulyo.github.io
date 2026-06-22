@@ -74,6 +74,8 @@ a:hover { text-decoration: underline; }
   display: flex;
   flex-direction: column;
   height: 100%;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card h3 { margin: 0 0 8px; }
 .card p { margin: 0 0 10px; color: var(--muted); line-height: 1.5; }
@@ -112,14 +114,6 @@ a:hover { text-decoration: underline; }
   gap: 40px;
   margin-top: 40px;
   flex-wrap: wrap;
-}
-
-.profile-photo {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #ddd;
 }
 
 .hero-text {
@@ -178,4 +172,16 @@ a:hover { text-decoration: underline; }
 .visual .tech {
   background: #0ea5a5;
   color: white;
+}
+
+.card-links {
+  margin-top: auto;
+}
+
+.chart-preview {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  background: white;
+  border-radius: 10px;
 }
