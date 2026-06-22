@@ -94,13 +94,6 @@ a:hover { text-decoration: underline; }
   color: rgba(232, 238, 252, 0.6);
 }
 
-.card img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 12px;
-  display: block;
-}
-
 .card:hover {
   transform: translateY(-6px);
   transition: 0.3s ease;
