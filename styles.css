@@ -111,8 +111,8 @@ a:hover { text-decoration: underline; }
 }
 
 .profile-photo {
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid rgba(255,255,255,0.2);
